@@ -9,3 +9,8 @@ penguins %>%
   geom_histogram()
 
 #demonstrating how pulling works 
+
+
+#IF YOU PUSH AN ENTIRE PROJECT THAT INCLDUES FOLDERSE WITH DATA , IT WILL MODIFY IT 
+
+#There seems to be a way to push a project so certain files get ignored? 
