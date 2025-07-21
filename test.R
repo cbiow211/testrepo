@@ -10,13 +10,21 @@ library(janitor)
 
 #THIS CONNECTS THIS RSTUDIO TO GITHUB
 library(usethis)
-create_github_token()
+create_github_token() #accesstoken is basically a social security number to the repository of github you are using . . . 
+                      #generally a key to your github, but is also tied to your identity and not just the project 
+
 
 library(gitcreds)
-gitcreds_set()
+gitcreds_set() #loadtoken 
 
 #adding these credentials will allow me to sink between rstudio and github 
 
 #TO CONNECT THIS SPECIFIC PROJECT 
 #will create a repository called testrepo
 use_github()
+
+#couldalso start with github & manually create "new repository" 
+ #copy the url 
+  #version control: repository url 
+
+
