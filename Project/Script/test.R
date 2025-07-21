@@ -31,6 +31,3 @@ use_github()
 library(gitcreds)
 gitcreds_set() #replace credentials & #load toaken 
 
-use_github()
-
-
